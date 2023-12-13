@@ -1,0 +1,23 @@
+.navbar {
+  margin-bottom: 24px;
+  color: white;
+}
+
+.file-upload-wrapper {
+  .file-upload-section {
+    margin: 16px;
+    .dropzone {
+      border: 2px dashed #0000ff;
+      padding: 16px;
+      cursor: pointer;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+  }
+
+  .file-preview-img {
+    width: -webkit-fill-available;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+}
